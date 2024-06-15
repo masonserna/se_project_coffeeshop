@@ -17,6 +17,6 @@ This project was limited to a webpage of 1440 px. To improve upon this, the next
 
 ## Sneak Peek
 
-`![screenshot of header](./images/header-screenshot.png)`
-`![screenshot of header](./images/recipes-screenshot.png)`
-`![screenshot of header](./images/form-screenshot.png)`
+![screenshot of header](./images/header-screenshot.png)
+![screenshot of recipes section](./images/recipes-screenshot.png)
+![screenshot of reservation form](./images/form-screenshot.png)

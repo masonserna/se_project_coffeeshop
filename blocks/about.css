@@ -14,13 +14,10 @@
   top: -152px;
 }
 
-.about__circle_animation_blurred:hover {
+.about__circle_animation_blurred {
   cursor: pointer;
   animation: pulsate 1.3s ease-in-out 0s infinite;
-  position: absolute;
 }
-
-/* In your feedback, you've said my animation is not working, but it is functioning well on my end. I'm not sure what the discrepancy is*/
 
 @keyframes pulsate {
   0% {

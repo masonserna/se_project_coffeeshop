@@ -7,6 +7,14 @@
   padding: 100px 0 120px;
 }
 
+.reservation__title {
+  text-align: center;
+  margin: 0 0 80px;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
 .reservation__form {
   margin: 0 auto;
 }

@@ -1,6 +1,7 @@
 .about {
   background-color: #0a2850;
   color: #fff;
+  overflow: hidden;
 }
 
 .about__circle {
@@ -11,11 +12,14 @@
   border-radius: 50%;
   left: -129px;
   top: -152px;
-  z-index: 1;
 }
 
 .about__circle_animation_blurred:hover {
+  cursor: pointer;
+  width: 426px;
+  height: 426px;
   animation: pulsate 1.3s ease-in-out 0s infinite;
+  position: absolute;
 }
 
 @keyframes pulsate {
@@ -45,17 +49,17 @@
   line-height: 52px;
   max-width: 251px;
   margin: 100px 0 0;
-  z-index: 3;
+  z-index: 2;
 }
 
-.about__paragraph {
+.about__paragraphs {
   display: flex;
   flex-direction: column;
   margin: 119px 0 173px;
   gap: 20px;
 }
 
-.about__paragraphs {
+.about__paragraph {
   font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;

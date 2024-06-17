@@ -26,5 +26,6 @@
 }
 
 .nav__link:hover {
+  cursor: pointer;
   color: #2f80ed;
 }

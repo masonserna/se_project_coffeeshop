@@ -11,7 +11,7 @@
     <meta name="keywords" content="html, css, flexbox" />
     <title>TripleTen Coffee Shop</title>
     <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="shortcut icon" href="./facvicon.ico" />
+    <link rel="shortcut icon" href="./favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -114,6 +114,7 @@
                   id="name"
                   class="form__input"
                   placeholder="Name Surname"
+                  required
                 />
               </label>
               <label for="number-of-guests" class="form__label"
@@ -125,6 +126,7 @@
                   placeholder="1-8"
                   min="1"
                   max="8"
+                  required
                 />
               </label>
               <label for="datetime-local" class="form__label"
@@ -133,6 +135,7 @@
                   type="datetime-local"
                   id="datetime-local"
                   class="form__input"
+                  required
                 />
               </label>
               <label for="email" class="form__label"
@@ -142,14 +145,19 @@
                   id="email"
                   class="form__input"
                   placeholder="email@email.com"
+                  required
                 />
               </label>
             </fieldset>
             <button type="submit" class="form__button">Book a table</button>
 
             <label for="checkbox" class="form__label form__label_type_checkbox"
-              ><input type="checkbox" id="checkbox" class="form__checkbox" />I
-              agree with the terms of use
+              ><input
+                type="checkbox"
+                id="checkbox"
+                class="form__checkbox"
+                required
+              />I agree with the terms of use
             </label>
           </form>
         </section>
@@ -236,15 +244,15 @@
             <h3 class="about__title">About the coffee shop</h3>
             <div class="about__circle"></div>
             <div class="about__circle about__circle_animation_blurred"></div>
-            <div class="about__paragraph">
-              <p class="about__paragraphs">
+            <div class="about__paragraphs">
+              <p class="about__paragraph">
                 Our coffee shop is located in the Triple Peaks Library. It
                 features 6 tables and free WiFi.
               </p>
-              <p class="about__paragraphs">
+              <p class="about__paragraph">
                 Our main mission is keeping guests cozy and energized.
               </p>
-              <p class="about__paragraphs">
+              <p class="about__paragraph">
                 Besides that, we try to reduce our environmental impact - so we
                 don't sell single-use cups. But you can buy one of our reusable
                 cups!

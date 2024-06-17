@@ -6,3 +6,5 @@
   line-height: 20px;
   margin: 0 auto;
 }
+
+/* Why is the page not covering the circle if it's z-index is 3 and the circle's is 2? */
